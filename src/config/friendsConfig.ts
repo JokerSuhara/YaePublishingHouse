@@ -23,15 +23,50 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
+		title: "猪猪博客",
+		imgurl:"https://drawrain.me/images/pig8086.jpg",
+		desc: "pig8086",
+		siteurl: "https://www.zzwl.top/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
 		title: "AkibaSo",
-		imgurl:
-			"https://2890.ltd/wp-content/uploads/2024/11/1731209895-Icon1-1.png",
-		desc: "",
+		imgurl:"https://2890.ltd/wp-content/uploads/2024/11/1731209895-Icon1-1.png",
+		desc: "念念不忘，必有回响",
 		siteurl: "https://2890.ltd",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
-	}
+	},
+	{
+		title: "s1eepy的基地",
+		imgurl:"https://yae-img.top/file/1778930482605_bacf3b3a1bd4334b0bd455893674bd07.webp",
+		desc: "",
+		siteurl: "http://s1eepy.xyz/",
+		tags: ["Blog"],
+		weight: 9, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	// {
+	// 	title: "",
+	// 	imgurl:"",
+	// 	desc: "",
+	// 	siteurl: "",
+	// 	tags: ["Blog"],
+	// 	weight: 10, // 权重，数字越大排序越靠前
+	// 	enabled: true, // 是否启用
+	// }
+	// {
+	// 	title: "",
+	// 	imgurl:"",
+	// 	desc: "",
+	// 	siteurl: "",
+	// 	tags: ["Blog"],
+	// 	weight: 10, // 权重，数字越大排序越靠前
+	// 	enabled: true, // 是否启用
+	// }
 ];
 
 // 获取启用的友链并进行排序
