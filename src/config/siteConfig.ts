@@ -16,8 +16,7 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://joker233.top",
 
 	// 站点描述
-	description:
-		"Aspiring to master the art of pwn.",
+	description: "Aspiring to master the art of pwn.",
 
 	// 站点关键词
 	keywords: [
@@ -81,7 +80,7 @@ export const siteConfig: SiteConfig = {
 			value: "assets/images/logo.png",
 			alt: "Logo",
 		},
-		// 导航栏标题  
+		// 导航栏标题
 		title: "$~/joker",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
@@ -121,7 +120,7 @@ export const siteConfig: SiteConfig = {
 	// bangumi配置
 	bangumi: {
 		// Bangumi用户ID
-		userId: "1143164",
+		userId: "1247432",
 		// 条目类型排序，数组中的类型将按顺序优先展示
 		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
 		// 未列出的类型将按默认顺序排在后面
