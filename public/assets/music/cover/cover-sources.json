@@ -1,0 +1,458 @@
+[
+  {
+    "track": {
+      "name": "使一颗心免于哀伤",
+      "artist": "知更鸟 / HOYO-MiX / Chevy",
+      "url": "/assets/music/使一颗心免于哀伤-哼唱.mp3"
+    },
+    "fileName": "cover-001.jpg",
+    "coverPath": "/assets/music/cover/cover-001.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=2155422573",
+    "picUrl": "https://p1.music.126.net/aR4BlDNkA84tFbg8bBpriA==/109951169585655912.jpg",
+    "match": {
+      "trackName": "使一颗心免于哀伤",
+      "artistName": "知更鸟 / HOYO-MiX / Chevy",
+      "album": "崩坏星穹铁道-空气蛹 INSIDE",
+      "score": 145,
+      "query": "知更鸟   HOYO-MiX   Chevy 使一颗心免于哀伤"
+    }
+  },
+  {
+    "track": {
+      "name": "Befall",
+      "artist": "尚雯婕",
+      "url": "/assets/music/尚雯婕 - Befall_L.ogg"
+    },
+    "fileName": "cover-002.jpg",
+    "coverPath": "/assets/music/cover/cover-002.jpg",
+    "source": "vgmdb",
+    "sourceUrl": "https://vgmdb.net/album/73099",
+    "picUrl": null,
+    "match": {
+      "trackName": "Befall",
+      "artistName": "尚雯婕",
+      "album": "Honkai Impact 3rd -Impact- Original Soundtrack",
+      "score": 100,
+      "query": "Befall 尚雯婕 崩坏3 cover"
+    }
+  },
+  {
+    "track": {
+      "name": "Rubia",
+      "artist": "周深",
+      "url": "/assets/music/周深 - Rubia_L.ogg"
+    },
+    "fileName": "cover-003.jpg",
+    "coverPath": "/assets/music/cover/cover-003.jpg",
+    "source": "apple",
+    "sourceUrl": "https://music.apple.com/cn/album/rubia/1666688993?i=1666688997&uo=4",
+    "picUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/74/d0/d4/74d0d45c-6f24-f1b3-6699-f6c7f1e0c7cf/cover.jpg/1200x1200bb.jpg",
+    "match": {
+      "trackName": "Rubia",
+      "artistName": "周深 & HOYO-MiX",
+      "album": "Rubia (Honkai Impact 3rd Impressions) - Single",
+      "score": 125,
+      "query": "周深 Rubia"
+    }
+  },
+  {
+    "track": {
+      "name": "Starfall",
+      "artist": "袁娅维TIA RAY",
+      "url": "/assets/music/袁娅维TIA RAY - Starfall_L.ogg"
+    },
+    "fileName": "cover-004.jpg",
+    "coverPath": "/assets/music/cover/cover-004.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1426087898",
+    "picUrl": "https://p2.music.126.net/0t5kKAKNdwVMnZiFjxMbRA==/109951164742955396.jpg",
+    "match": {
+      "trackName": "Starfall",
+      "artistName": "袁娅维TIA RAY",
+      "album": "Starfall",
+      "score": 115,
+      "query": "袁娅维TIA RAY Starfall"
+    }
+  },
+  {
+    "track": {
+      "name": "Nightglow",
+      "artist": "蔡健雅",
+      "url": "/assets/music/蔡健雅 - Nightglow_L.ogg"
+    },
+    "fileName": "cover-005.jpg",
+    "coverPath": "/assets/music/cover/cover-005.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1333199831",
+    "picUrl": "https://p2.music.126.net/TAiliOjM10DlKiL56fPIMw==/109951163737497396.jpg",
+    "match": {
+      "trackName": "Nightglow",
+      "artistName": "蔡健雅",
+      "album": "崩坏3-Onwards-Original Soundtrack",
+      "score": 115,
+      "query": "蔡健雅 Nightglow"
+    }
+  },
+  {
+    "track": {
+      "name": "TruE",
+      "artist": "黄龄 / HOYO-MiX",
+      "url": "/assets/music/黄龄 _ HOYO-MiX - TruE_L.ogg"
+    },
+    "fileName": "cover-006.jpg",
+    "coverPath": "/assets/music/cover/cover-006.jpg",
+    "source": "apple",
+    "sourceUrl": "https://music.apple.com/cn/album/true/1639369502?i=1639369507&uo=4",
+    "picUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/46/1d/20/461d20d5-bf2f-9c65-d18f-dc3e87896496/cover.jpg/1200x1200bb.jpg",
+    "match": {
+      "trackName": "TruE",
+      "artistName": "HOYO-MiX & 黄龄",
+      "album": "TruE (崩坏3《因你而在的故事》动画短片印象曲) - Single",
+      "score": 140,
+      "query": "黄龄   HOYO-MiX TruE"
+    }
+  },
+  {
+    "track": {
+      "name": "Regression",
+      "artist": "阿云嘎 / HOYO-MiX",
+      "url": "/assets/music/阿云嘎 _ HOYO-MiX - Regression_L.ogg"
+    },
+    "fileName": "cover-007.jpg",
+    "coverPath": "/assets/music/cover/cover-007.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1913478990",
+    "picUrl": "https://p1.music.126.net/DbD08enxZN2kDFScDFxcdQ==/109951166957048928.jpg",
+    "match": {
+      "trackName": "Regression",
+      "artistName": "阿云嘎 / HOYO-MiX",
+      "album": "Regression",
+      "score": 130,
+      "query": "阿云嘎   HOYO-MiX Regression"
+    }
+  },
+  {
+    "track": {
+      "name": "Moon Halo",
+      "artist": "茶理理理子 / TetraCalyx / hanser / HOYO-MiX",
+      "url": "/assets/music/茶理理理子 _ TetraCalyx _ hanser _ HOYO-MiX - Moon Halo_L.ogg"
+    },
+    "fileName": "cover-008.jpg",
+    "coverPath": "/assets/music/cover/cover-008.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1859652717",
+    "picUrl": "https://p2.music.126.net/ciLKATqflV2YWSV3ltE2Kw==/109951166159281275.jpg",
+    "match": {
+      "trackName": "Moon Halo",
+      "artistName": "茶理理 / TetraCalyx / Hanser / HOYO-MiX",
+      "album": "Moon Halo",
+      "score": 145,
+      "query": "茶理理理子   TetraCalyx   hanser   HOYO-MiX Moon Halo"
+    }
+  },
+  {
+    "track": {
+      "name": "Da Capo",
+      "artist": "HOYO-MiX",
+      "url": "/assets/music/HOYO-MiX - Da Capo_L.ogg"
+    },
+    "fileName": "cover-009.jpg",
+    "coverPath": "/assets/music/cover/cover-009.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=2026565329",
+    "picUrl": "https://p1.music.126.net/awzv1LpuBJiKTeB7roh_Aw==/109951168434956885.jpg",
+    "match": {
+      "trackName": "Da Capo",
+      "artistName": "HOYO-MiX",
+      "album": "Da Capo",
+      "score": 115,
+      "query": "HOYO-MiX Da Capo"
+    }
+  },
+  {
+    "track": {
+      "name": "IRAS 17514",
+      "artist": "HOYO-MiX",
+      "url": "/assets/music/HOYO-MiX - IRAS 17514_L.ogg"
+    },
+    "fileName": "cover-010.jpg",
+    "coverPath": "/assets/music/cover/cover-010.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1915838141",
+    "picUrl": "https://p2.music.126.net/GJkcvVoh7Z3FGHRu0EMdsA==/109951166991161947.jpg",
+    "match": {
+      "trackName": "IRAS 17514",
+      "artistName": "HOYO-MiX",
+      "album": "崩坏3-Paradox-Original Soundtrack",
+      "score": 115,
+      "query": "HOYO-MiX IRAS 17514"
+    }
+  },
+  {
+    "track": {
+      "name": "Pink Flavor",
+      "artist": "ChiliChill乐团",
+      "url": "/assets/music/ChiliChill乐团 - Pink Flavor_L.ogg"
+    },
+    "fileName": "cover-011.jpg",
+    "coverPath": "/assets/music/cover/cover-011.jpg",
+    "source": "apple",
+    "sourceUrl": "https://music.apple.com/cn/album/pink-flavor/1666000471?i=1666000996&uo=4",
+    "picUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/48/06/e0/4806e0dd-3be7-9585-0b07-564748f6d71b/cover.jpg/1200x1200bb.jpg",
+    "match": {
+      "trackName": "Pink Flavor",
+      "artistName": "ChiliChill",
+      "album": "Pink Flavor - Single",
+      "score": 110,
+      "query": "ChiliChill乐团 Pink Flavor"
+    }
+  },
+  {
+    "track": {
+      "name": "恋人心",
+      "artist": "魏新雨",
+      "url": "/assets/music/魏新雨 - 恋人心_L.ogg"
+    },
+    "fileName": "cover-012.jpg",
+    "coverPath": "/assets/music/cover/cover-012.jpg",
+    "source": "apple",
+    "sourceUrl": "https://music.apple.com/search?term=%E9%AD%8F%E6%96%B0%E9%9B%A8%20%E6%81%8B%E4%BA%BA%E5%BF%83",
+    "picUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4e/24/15/4e241527-842b-966b-0a05-d38958d462ba/cover.jpg/1200x1200bb.jpg",
+    "match": {
+      "trackName": "恋人心",
+      "artistName": "Wei Xin Yu",
+      "album": "恋人心 - Single",
+      "score": 110,
+      "query": "魏新雨 恋人心"
+    }
+  },
+  {
+    "track": {
+      "name": "桜のような恋でした (宛如樱花般的爱恋)",
+      "artist": "鹿乃",
+      "url": "/assets/music/鹿乃 - 桜のような恋でした (宛如樱花般的爱恋)_L.ogg"
+    },
+    "fileName": "cover-013.jpg",
+    "coverPath": "/assets/music/cover/cover-013.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1392566186",
+    "picUrl": "https://p2.music.126.net/jHm9eLVz_8Btdmk5LQsBJQ==/109951164380327621.jpg",
+    "match": {
+      "trackName": "桜のような恋でした",
+      "artistName": "鹿乃",
+      "album": "いつかの約束を君に",
+      "score": 115,
+      "query": "鹿乃 桜のような恋でした (宛如樱花般的爱恋)"
+    }
+  },
+  {
+    "track": {
+      "name": "崩坏世界的歌姬 (Movie Ver.)",
+      "artist": "小林未郁",
+      "url": "/assets/music/小林未郁 - 崩坏世界的歌姬 (Movie Ver_)_L.ogg"
+    },
+    "fileName": "cover-014.jpg",
+    "coverPath": "/assets/music/cover/cover-014.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1459722976",
+    "picUrl": "https://p1.music.126.net/XftX_EwaEBhjPgddMv7Lbw==/109951165105147714.jpg",
+    "match": {
+      "trackName": "崩坏世界的歌姬 (Movie Ver.)",
+      "artistName": "小林未郁",
+      "album": "崩坏3-Review-Original Soundtrack",
+      "score": 115,
+      "query": "小林未郁 崩坏世界的歌姬 (Movie Ver.)"
+    }
+  },
+  {
+    "track": {
+      "name": "Cyberangel",
+      "artist": "hanser",
+      "url": "/assets/music/hanser - Cyberangel_L.ogg"
+    },
+    "fileName": "cover-015.jpg",
+    "coverPath": "/assets/music/cover/cover-015.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1375725396",
+    "picUrl": "https://p2.music.126.net/TAiliOjM10DlKiL56fPIMw==/109951163737497396.jpg",
+    "match": {
+      "trackName": "Cyberangel",
+      "artistName": "Hanser",
+      "album": "崩坏3-Onwards-Original Soundtrack",
+      "score": 115,
+      "query": "hanser Cyberangel"
+    }
+  },
+  {
+    "track": {
+      "name": "打上花火",
+      "artist": "Daoko / 米津玄師",
+      "url": "/assets/music/Daoko _ 米津玄師 - 打上花火_L.ogg"
+    },
+    "fileName": "cover-016.jpg",
+    "coverPath": "/assets/music/cover/cover-016.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=496869422",
+    "picUrl": "https://p1.music.126.net/ZUCE_1Tl_hkbtamKmSNXEg==/109951163009282836.jpg",
+    "match": {
+      "trackName": "打上花火",
+      "artistName": "Daoko / 米津玄師",
+      "album": "打上花火",
+      "score": 130,
+      "query": "打上花火 DAOKO 米津玄師"
+    }
+  },
+  {
+    "track": {
+      "name": "裏切り者のレクイエム (背叛者的镇魂曲) (Diavolo Ver.)",
+      "artist": "长谷川大祐",
+      "url": "/assets/music/长谷川大祐 - 裏切り者のレクイエム (背叛者的镇魂曲) (Diavolo Ver_)_L.ogg"
+    },
+    "fileName": "cover-017.jpg",
+    "coverPath": "/assets/music/cover/cover-017.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1352199795",
+    "picUrl": "https://p2.music.126.net/1XcR1rGKeCeTUSziQQN5Ug==/109951170987025551.jpg",
+    "match": {
+      "trackName": "裏切り者のレクイエム",
+      "artistName": "長谷川大祐",
+      "album": "裏切り者のレクイエム",
+      "score": 100,
+      "query": "长谷川大祐 裏切り者のレクイエム (背叛者的镇魂曲) (Diavolo Ver.)"
+    }
+  },
+  {
+    "track": {
+      "name": "Hell March 3",
+      "artist": "群星",
+      "url": "/assets/music/群星 - Hell March 3_L.ogg"
+    },
+    "fileName": "cover-018.jpg",
+    "coverPath": "/assets/music/cover/cover-018.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1357351964",
+    "picUrl": "https://p2.music.126.net/Nueroci3oALMbvWd7ssKSw==/109951170503874282.jpg",
+    "match": {
+      "trackName": "Hell March 3",
+      "artistName": "Frank Klepacki",
+      "album": "Command & Conquer: Red Alert 3 (Original Soundtrack)",
+      "score": 100,
+      "query": "Hell March 3"
+    }
+  },
+  {
+    "track": {
+      "name": "Bury the Light",
+      "artist": "Casey Edwards / Victor Borba",
+      "url": "/assets/music/Casey Edwards _ Victor Borba - Bury the Light_L.ogg"
+    },
+    "fileName": "cover-019.jpg",
+    "coverPath": "/assets/music/cover/cover-019.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1814096316",
+    "picUrl": "https://p1.music.126.net/SCFRcG64pd7E7cePomIUPg==/109951168164642909.jpg",
+    "match": {
+      "trackName": "Bury the Light",
+      "artistName": "Casey Edwards / Victor Borba",
+      "album": "Bury the Light",
+      "score": 130,
+      "query": "Casey Edwards   Victor Borba Bury the Light"
+    }
+  },
+  {
+    "track": {
+      "name": "RISE",
+      "artist": "The Glitch Mob / Mako / The Word Alive",
+      "url": "/assets/music/The Glitch Mob _ Mako _ The Word Alive - RISE_L.ogg"
+    },
+    "fileName": "cover-020.jpg",
+    "coverPath": "/assets/music/cover/cover-020.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1313107065",
+    "picUrl": "https://p2.music.126.net/I9y4Arpr2Dx7EQ1QS4DqBA==/109951171797238435.jpg",
+    "match": {
+      "trackName": "RISE",
+      "artistName": "英雄联盟 / Mako / The Word Alive / The Glitch Mob",
+      "album": "RISE",
+      "score": 145,
+      "query": "The Glitch Mob   Mako   The Word Alive RISE"
+    }
+  },
+  {
+    "track": {
+      "name": "Enemy (from the series Arcane League of Legends)",
+      "artist": "Imagine Dragons / 英雄联盟",
+      "url": "/assets/music/Imagine Dragons _ 英雄联盟 - Enemy (from the series Arcane League of Legends)_L.ogg"
+    },
+    "fileName": "cover-021.jpg",
+    "coverPath": "/assets/music/cover/cover-021.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1890494798",
+    "picUrl": "https://p1.music.126.net/r6QPvpUo6_ur-KKTjIqfrQ==/109951166564435346.jpg",
+    "match": {
+      "trackName": "Enemy (from the series Arcane League of Legends)",
+      "artistName": "Imagine Dragons / JID / 英雄联盟 / 双城之战",
+      "album": "Enemy (from the series Arcane League of Legends)",
+      "score": 130,
+      "query": "Enemy"
+    }
+  },
+  {
+    "track": {
+      "name": "Divine",
+      "artist": "MONJOE / ☆Taku Takahashi / Sweep / JUVENILE",
+      "url": "/assets/music/MONJOE _ ☆Taku Takahashi _ Sweep _ JUVENILE - Divine_L.ogg"
+    },
+    "fileName": "cover-022.jpg",
+    "coverPath": "/assets/music/cover/cover-022.jpg",
+    "source": "apple",
+    "sourceUrl": "https://music.apple.com/us/album/divine/1828860247?i=1828860248&uo=4",
+    "picUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/7b/00/967b0079-bdae-3248-1450-c289a8b329e2/VEATP-44197.jpg/1200x1200bb.jpg",
+    "match": {
+      "trackName": "Divine",
+      "artistName": "MONJOE, Taku Takahashi, SWEEP & JUVENILE",
+      "album": "Divine - Single",
+      "score": 170,
+      "query": "MONJOE   ☆Taku Takahashi   Sweep   JUVENILE Divine"
+    }
+  },
+  {
+    "track": {
+      "name": "梦樱言 (Single Version)",
+      "artist": "林簌",
+      "url": "/assets/music/林簌 - 梦樱言 (Single Version)_L.ogg"
+    },
+    "fileName": "cover-023.jpg",
+    "coverPath": "/assets/music/cover/cover-023.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1926102442",
+    "picUrl": "https://p1.music.126.net/ySzsWt0Qm-PuCl86NZPrCg==/109951167124014695.jpg",
+    "match": {
+      "trackName": "梦樱言",
+      "artistName": "林簌",
+      "album": "梦樱言",
+      "score": 115,
+      "query": "林簌 梦樱言"
+    }
+  },
+  {
+    "track": {
+      "name": "电子羊",
+      "artist": "某幻君",
+      "url": "/assets/music/某幻君 - 电子羊_L.ogg"
+    },
+    "fileName": "cover-024.jpg",
+    "coverPath": "/assets/music/cover/cover-024.jpg",
+    "source": "netease",
+    "sourceUrl": "https://music.163.com/#/song?id=1448284210",
+    "picUrl": "https://p1.music.126.net/zjTfd2rYSZi3dv4cQllMfA==/109951164988616475.jpg",
+    "match": {
+      "trackName": "电子羊",
+      "artistName": "某幻君 / 王瀚哲 (中国BOY)",
+      "album": "电子羊",
+      "score": 115,
+      "query": "某幻君 电子羊"
+    }
+  }
+]

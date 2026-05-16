@@ -39,12 +39,35 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
+		    "assets/images/DesktopWallpaper/yae (1).avif",
+    		"assets/images/DesktopWallpaper/yae (2).avif",
+    		"assets/images/DesktopWallpaper/yae (3).avif",
+    		"assets/images/DesktopWallpaper/yae (4).avif",
+    		"assets/images/DesktopWallpaper/yae (5).avif",
+    		"assets/images/DesktopWallpaper/yae (6).avif",
+    		"assets/images/DesktopWallpaper/yae (7).avif",
+    		"assets/images/DesktopWallpaper/yae (8).avif",
+    		"assets/images/DesktopWallpaper/yae (9).avif",
+    		"assets/images/DesktopWallpaper/yae (10).avif",
+    		"assets/images/DesktopWallpaper/yae (11).avif",
+    		"assets/images/DesktopWallpaper/yae (12).avif",
+    		"assets/images/DesktopWallpaper/yae (13).avif",
+    		"assets/images/DesktopWallpaper/yae (14).avif",
+    		"assets/images/DesktopWallpaper/yae (15).avif",
+    		"assets/images/DesktopWallpaper/yae (16).avif",
+    		"assets/images/DesktopWallpaper/yae (17).avif",
+    		"assets/images/DesktopWallpaper/yae (18).avif",
+    		"assets/images/DesktopWallpaper/yae (19).avif",
+    		"assets/images/DesktopWallpaper/yae (20).avif",
+    		"assets/images/DesktopWallpaper/yae (21).avif",
+    		"assets/images/DesktopWallpaper/yae (22).avif",
+    		"assets/images/DesktopWallpaper/yae (23).avif",
+    		"assets/images/DesktopWallpaper/yae (24).avif",
+    		"assets/images/DesktopWallpaper/yae (25).avif",
+    		"assets/images/DesktopWallpaper/yae (26).avif",
+    		"assets/images/DesktopWallpaper/yae (27).avif",
+    		"assets/images/DesktopWallpaper/yae (28).avif",
+    		"assets/images/DesktopWallpaper/yae (29).avif",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -71,17 +94,24 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "🌸Yae Publishing House🌸",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"In Borrowed Shape, I Once Lay Sleeping",
+				"From Broken Ground, I Fall to Rise",
+				"Through Walls That Spoke of Order, I Pressed On",
+				"Upon the Edge of No Return, I Held My Gaze",
+				"From Silence Carved by Thunder, I Began to Speak",
+				"In What Remains of Me, I Choose to Burn",
+				"It shall become a requiem that outlives death",
+				"It shall become a psalm for the descent of miracles",
+				"The world, in that moment, shall turn for one alone",
+				"Let the imposed guilt dissolve into smoke",
+				"Let the will that was ended march forward still",
+				"All baseness I shall carry into my grave…",
+				"Light, because of you, shall reach toward the future",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
@@ -102,9 +132,9 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		credit: {
 			enable: {
 				// 桌面端显示横幅图片来源文本
-				desktop: true,
+				desktop: false,
 				// 移动端显示横幅图片来源文本
-				mobile: true,
+				mobile: false,
 			},
 			text: {
 				// 桌面端要显示的来源文本
