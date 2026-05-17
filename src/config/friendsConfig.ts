@@ -25,7 +25,7 @@ export const friendsConfig: FriendLink[] = [
 	{
 		title: "猪猪博客",
 		imgurl: "https://drawrain.me/images/pig8086.jpg",
-		desc: "pig8086",
+		desc: "",
 		siteurl: "https://www.zzwl.top/",
 		tags: ["Blog"],
 		weight: 9, // 权重，数字越大排序越靠前
@@ -51,15 +51,15 @@ export const friendsConfig: FriendLink[] = [
 		weight: 9, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
-	// {
-	// 	title: "",
-	// 	imgurl:"",
-	// 	desc: "",
-	// 	siteurl: "",
-	// 	tags: ["Blog"],
-	// 	weight: 10, // 权重，数字越大排序越靠前
-	// 	enabled: true, // 是否启用
-	// }
+	{
+		title: "Drawrain's Blog",
+		imgurl: "https://drawrain.me/_astro/avata.C6Wxqmbc_239Pcl.webp",
+		desc: "",
+		siteurl: "https://drawrain.me/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
 	// {
 	// 	title: "",
 	// 	imgurl:"",
