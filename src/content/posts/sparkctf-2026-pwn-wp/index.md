@@ -2,7 +2,7 @@
 title: "SparkCTF 2026 WP——Pwn部分"
 published: 2026-02-24
 description: "学校搞的训练赛，难度很适中"
-image: "https://free.picui.cn/free/2026/02/24/699d84c99cfd5.png"
+image: "https://yae-img.top/file/1783917478134_699d84c99cfd5.webp"
 tags: [CTF, Pwn]
 category: CTF
 draft: false

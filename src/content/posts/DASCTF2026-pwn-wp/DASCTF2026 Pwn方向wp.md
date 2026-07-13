@@ -1,8 +1,8 @@
 ---
 title: "DASCTF 2026 Pwn方向 WP"
 published: 2026-06-09
-description: "DASCTF 2026 Pwn方向部分题目赛后复现记录。"
-image: "https://ctf2.dasctf.com/api/v1/files/59d5e2bd-a86f-43f7-acd4-14108bcc1e3c/download/"
+description: "DASCTF 2026 Pwn方向部分题目赛后复现"
+image: "https://yae-img.top/file/1783917737611_a7ee8de257b47011b7ccb3290647a3c682aa20a834ed78d10aea61e32b939430.webp"
 tags: [CTF, Pwn]
 category: CTF
 draft: false
