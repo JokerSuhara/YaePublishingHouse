@@ -19,15 +19,15 @@ draft: false
 
 也算是赶上了AI大肆入侵ctf的时代，靠着一道题一道题的问DeepSeek ，做了不少的密码学和misc，一度在校内排第二
 
-<img src="./index/image.jpg" alt="Screenshot_20250810_230634_com_microsoft_emmx_Chr(1)" width="343" height="69" />
+![然后又掉下去了](https://yae-img.top/file/1784023983440_image.webp)
 
 后来想有所突破，想试试:spoiler[一分没得的]“**二进制漏洞审计**”，结果配了半天环境没配好，最后是在校队老大的帮助下才勉强配好了环境
 
 然后就被他忽悠来打pwn了……
 
-<img src="./index/retouch_2026071416271602.jpg" alt="retouch_2026071416271602" width="343" height="371" />
+![花言巧语这一块](https://yae-img.top/file/1784023980251_retouch_2026071416271602.webp)
 
-:spoiler[我就这么忽悠下一届小登<span style="color: rgb(236, 223, 226)">😁]</span>
+:spoiler[我就这么忽悠下一届小登<span style="color: rgb(236, 223, 226)">]</span>
 
 此后又经过了新生赛NewstarCTF 2025、其他学校的各种新生赛、国赛、N1CTF、阿里CTF等等，也算是**初步入门Pwn**了
 
@@ -50,7 +50,7 @@ draft: false
 
 :spoiler[志愿时长吃爽了]
 
-后面还参加了一些比较大的比赛，比如御网杯:spoiler[💩]、defcon :spoiler[一题没做出来]、各种各样的XCTF联赛和外卡赛，也算是累积了一些**kernal pwn**的经验
+后面还参加了一些比较大的比赛，比如御网杯:spoiler[区]、defcon :spoiler[一题没做出来]、各种各样的XCTF联赛和外卡赛，也算是累积了一些**kernal pwn**的经验
 
 学期末的时候参加了国赛的作品赛，但由于准备时间太少，我们的主要成果和报告都是带队老师写的（）:spoiler[伟大]
 
