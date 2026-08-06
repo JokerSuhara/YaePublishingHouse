@@ -2,7 +2,7 @@
 title: "谈谈迁移到Astro的感受，以及如何0基础快速搭建一个静态博客"
 published: 2026-05-20
 description: "从 Typecho 迁移到 Astro 后的一些感受，以及基于 Firefly 模板搭建静态博客的流程记录"
-image: "https://yae-img.top/file/1779208709267_Image_1778830067086_326.webp"
+image: "./cover.webp"
 tags: [Astro, 博客, 建站]
 category: 技术
 draft: false

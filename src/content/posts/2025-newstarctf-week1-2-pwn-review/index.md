@@ -2,7 +2,7 @@
 title: "2025 NewStarCTF week1&2 pwn复盘"
 published: 2025-09-01
 description: "1、INTbug 难度：简单 打开ida分析func函数，可见是整数溢出型漏洞 v1是int16类型，2字节有符号整数，范围在32768到32767 v2是int类型，4字节有符号整数 v3是canary保护值 每次循环会读取输入到v2，如"
-image: "https://ctf.cumt.edu.cn/api/media?hash=4c556afef4db24bc4a6846d510057645fc14fc9fb73f6b182ef154a573a4c851"
+image: "./cover.webp"
 tags: [CTF, Pwn]
 category: CTF
 draft: false

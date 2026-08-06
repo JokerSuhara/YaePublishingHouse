@@ -49,7 +49,7 @@ const initialLayoutClass =
         draft={entry.data.draft}
         pinned={entry.data.pinned}
         password={!!entry.data.password}
-        loading={index < 2 ? "eager" : "lazy"}
+        loading={index === 0 ? "eager" : "lazy"}
         class:list="onload-animation post-card-item"
         style={`animation-delay: calc(var(--content-delay) + ${delay++ * interval}ms);`}
       />

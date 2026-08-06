@@ -2,7 +2,7 @@
 title: "一个小小的年中总结"
 published: 2026-07-14
 description: "对大一学期的总结"
-image: "https://yae-img.top/file/1776761050676_yaemiko__41_.webp"
+image: "./cover.webp"
 tags: [生活, 总结]
 category: 生活
 draft: false
