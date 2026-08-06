@@ -35,12 +35,13 @@ interface Props {
 	title?: string;
 	banner?: string;
 	description?: string;
+	image?: string;
 	lang?: string;
 	setOGTypeArticle?: boolean;
 	postSlug?: string;
 }
 
-let { title, banner, description, lang, setOGTypeArticle, postSlug } =
+let { title, banner, description, image, lang, setOGTypeArticle, postSlug } =
 	Astro.props;
 
 // apply a class to the body element to decide the height of the banner, only used for initial page load
@@ -77,9 +78,16 @@ if (title) {
 		: siteConfig.title;
 }
 
-let ogImageUrl: string | undefined;
-if (siteConfig.generateOgImages && postSlug) {
+const metaDescription = description || siteConfig.description || pageTitle;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+let ogImageUrl: string;
+if (image) {
+	ogImageUrl = new URL(image, Astro.site).toString();
+} else if (siteConfig.generateOgImages && postSlug) {
 	ogImageUrl = new URL(`/og/${postSlug}.png`, Astro.site).toString();
+} else {
+	ogImageUrl = new URL("/favicon/logo.png", Astro.site).toString();
 }
 
 const favicons: Favicon[] =
@@ -132,10 +140,8 @@ const siteLang = lang.replace("_", "-");
     )}
 
     <title>{pageTitle}</title>
-    <meta
-      name="description"
-      content={description || siteConfig.description || pageTitle}
-    />
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonicalURL} />
     {
       siteConfig.keywords && siteConfig.keywords.length > 0 && (
         <meta name="keywords" content={siteConfig.keywords.join(", ")} />
@@ -144,13 +150,10 @@ const siteLang = lang.replace("_", "-");
     <meta name="author" content={profileConfig.name} />
 
     <meta property="og:site_name" content={siteConfig.title} />
-    <meta property="og:url" content={Astro.url} />
+    <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={pageTitle} />
-    <meta
-      property="og:description"
-      content={description || siteConfig.description || pageTitle}
-    />
-    {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={ogImageUrl} />
     {
       setOGTypeArticle ? (
         <meta property="og:type" content="article" />
@@ -160,12 +163,10 @@ const siteLang = lang.replace("_", "-");
     }
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:url" content={canonicalURL} />
     <meta name="twitter:title" content={pageTitle} />
-    <meta
-      name="twitter:description"
-      content={description || siteConfig.description || pageTitle}
-    />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
