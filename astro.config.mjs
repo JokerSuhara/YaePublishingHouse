@@ -40,6 +40,10 @@ export default defineConfig({
 	
 	base: "/",
 	trailingSlash: "always",
+	redirects: {
+		"/posts/快速搭建一个更智能更美观的pwn做题环境/快速搭建一个更智能更美观的pwn做题环境/":
+			"/posts/pwn-env/",
+	},
 
 	// 图像优化配置
 	image: {

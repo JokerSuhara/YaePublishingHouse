@@ -1,5 +1,6 @@
 ---
 title: "快速搭建一个更智能、更美观的 Pwn 做题环境"
+slug: pwn-env
 published: 2026-08-11
 description: "从虚拟机、VSCode、AI Agent 到自动化脚本，搭建一套更智能、更美观的 Pwn 做题环境"
 image: "./cover.webp"
