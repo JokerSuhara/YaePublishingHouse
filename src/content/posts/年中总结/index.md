@@ -1,5 +1,5 @@
 ---
-title: "一个小小的年中总结"
+title: "年中总结"
 published: 2026-07-14
 description: "对大一学期的总结"
 image: "./cover.webp"
@@ -20,14 +20,6 @@ draft: false
 也算是赶上了AI大肆入侵ctf的时代，靠着一道题一道题的问DeepSeek ，做了不少的密码学和misc，一度在校内排第二
 
 ![然后又掉下去了](https://yae-img.top/file/1784023983440_image.webp)
-
-后来想有所突破，想试试:spoiler[一分没得的]“**二进制漏洞审计**”，结果配了半天环境没配好，最后是在校队老大的帮助下才勉强配好了环境
-
-然后就被他忽悠来打pwn了……
-
-![花言巧语这一块](https://yae-img.top/file/1784023980251_retouch_2026071416271602.webp)
-
-:spoiler[我就这么忽悠下一届小登<span style="color: rgb(236, 223, 226)">]</span>
 
 此后又经过了新生赛NewstarCTF 2025、其他学校的各种新生赛、国赛、N1CTF、阿里CTF等等，也算是**初步入门Pwn**了
 
@@ -87,13 +79,11 @@ yysy，这是个很好的锻炼逆向能力的机会，CTF毕竟只是竞赛，�
 - 好靶场综合赛
 - CCF汽车攻防赛
 
-可能还有N1 Junior和XCTF联赛？
-
 还要准备给NewstarCTF 2026出些pwn以及给内部小登出些训练题，事情还是挺多的
 
 ## 训练
 
-其实主要是针对堆、Kernel和VM虚拟机的训练，尽量在没有AI辅助的情况下把**how2heap**刷完吧
+其实主要是针对堆、Kernel和VM虚拟机的训练，尽量在没有AI辅助的情况下把 **how2heap** 刷完吧
 
 然后尽量把一些大比赛的Kernel和VM题复现一下
 
