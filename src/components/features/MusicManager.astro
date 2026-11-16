@@ -97,6 +97,8 @@ const managerConfigStr = JSON.stringify({
     // ── Audio element (persistent, attached to body) ────────
     var audio = document.createElement('audio');
     audio.crossOrigin = 'anonymous';
+    // 不预加载音频，用户点击播放时才开始下载
+    audio.preload = 'none';
     audio.style.display = 'none';
     document.body.appendChild(audio);
 
