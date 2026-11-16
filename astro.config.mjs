@@ -167,6 +167,10 @@ export default defineConfig({
 				const url = new URL(page);
 				const pathname = url.pathname;
 
+				// 旧文章地址只是跳转页，不收录；文章地址为 /posts/id=<编号>/
+				if (pathname.startsWith("/posts/") && !pathname.startsWith("/posts/id=")) {
+					return false;
+				}
 				if (pathname === "/friends/" && !siteConfig.pages.friends) {
 					return false;
 				}

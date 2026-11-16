@@ -24,10 +24,13 @@ const postsCollection = defineCollection({
 		passwordHint: z.string().optional().default(""),
 
 		/* For internal use */
+		postId: z.number().default(0),
 		prevTitle: z.string().default(""),
 		prevSlug: z.string().default(""),
+		prevPostId: z.number().default(0),
 		nextTitle: z.string().default(""),
 		nextSlug: z.string().default(""),
+		nextPostId: z.number().default(0),
 	}),
 });
 

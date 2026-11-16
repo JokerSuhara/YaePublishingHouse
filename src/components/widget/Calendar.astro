@@ -133,7 +133,7 @@ const postUrlPrefix = url("/posts/");
         if (!postDateMap[dateKey]) {
           postDateMap[dateKey] = [];
         }
-        postDateMap[dateKey].push({ id: post.id, title: post.title, published: post.published });
+        postDateMap[dateKey].push({ id: post.id, postId: post.postId, title: post.title, published: post.published });
         yearsSet.add(date.getFullYear());
       });
       
@@ -362,7 +362,7 @@ const postUrlPrefix = url("/posts/");
         const date = new Date(post.published);
         const dateStr = `${date.getMonth() + 1}-${date.getDate()}`;
         return `
-        <a href="${postUrlPrefix}${post.id}/" class="flex justify-between items-center text-sm text-neutral-700 dark:text-neutral-300 hover:text-(--primary) dark:hover:text-(--primary) transition-colors px-2 py-1 rounded hover:bg-(--btn-plain-bg-hover)">
+        <a href="${postUrlPrefix}id=${post.postId}/" class="flex justify-between items-center text-sm text-neutral-700 dark:text-neutral-300 hover:text-(--primary) dark:hover:text-(--primary) transition-colors px-2 py-1 rounded hover:bg-(--btn-plain-bg-hover)">
           <span class="truncate">${post.title}</span>
           <span class="text-xs text-neutral-500 dark:text-neutral-400 ml-2 whitespace-nowrap">${dateStr}</span>
         </a>
@@ -422,7 +422,7 @@ const postUrlPrefix = url("/posts/");
             const date = new Date(post.published);
             const dateStr = `${date.getMonth() + 1}-${date.getDate()}`;
             return `
-            <a href="${postUrlPrefix}${post.id}/" class="flex justify-between items-center text-sm text-neutral-700 dark:text-neutral-300 hover:text-(--primary) dark:hover:text-(--primary) transition-colors px-2 py-1 rounded hover:bg-(--btn-plain-bg-hover)">
+            <a href="${postUrlPrefix}id=${post.postId}/" class="flex justify-between items-center text-sm text-neutral-700 dark:text-neutral-300 hover:text-(--primary) dark:hover:text-(--primary) transition-colors px-2 py-1 rounded hover:bg-(--btn-plain-bg-hover)">
               <span class="truncate">${post.title}</span>
               <span class="text-xs text-neutral-500 dark:text-neutral-400 ml-2 whitespace-nowrap">${dateStr}</span>
             </a>

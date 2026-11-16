@@ -3,21 +3,57 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils";
 
-// // Retrieve posts and sort them by publication date
-async function getRawSortedPosts() {
-	const allBlogPosts = await getCollection("posts", ({ data }) => {
+async function getVisiblePosts() {
+	return getCollection("posts", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	});
+}
+
+// 文章编号：按发布时间从早到晚编号，第一篇为 1，文章地址为 /posts/id=<编号>/
+// 同一天发布的文章按文章 id 排序；草稿（仅开发环境可见）排在已发布文章之后，保证线上编号不受草稿影响
+let postIdMapPromise: Promise<Map<string, number>> | undefined;
+
+function getPostIdMap(): Promise<Map<string, number>> {
+	postIdMapPromise ??= getVisiblePosts().then((posts) => {
+		const ordered = [...posts].sort((a, b) => {
+			const draftDiff = Number(!!a.data.draft) - Number(!!b.data.draft);
+			if (draftDiff !== 0) return draftDiff;
+			const dateDiff =
+				new Date(a.data.published).getTime() -
+				new Date(b.data.published).getTime();
+			if (dateDiff !== 0) return dateDiff;
+			return a.id.localeCompare(b.id);
+		});
+		return new Map(ordered.map((post, index) => [post.id, index + 1]));
+	});
+	return postIdMapPromise;
+}
+
+async function withPostIds<T extends CollectionEntry<"posts">>(
+	posts: T[],
+): Promise<T[]> {
+	const idMap = await getPostIdMap();
+	for (const post of posts) {
+		post.data.postId = idMap.get(post.id) ?? 0;
+	}
+	return posts;
+}
+
+// // Retrieve posts and sort them by publication date
+async function getRawSortedPosts() {
+	const allBlogPosts = await withPostIds(await getVisiblePosts());
 
 	const sorted = allBlogPosts.sort((a, b) => {
 		// 首先按置顶状态排序，置顶文章在前
 		if (a.data.pinned && !b.data.pinned) return -1;
 		if (!a.data.pinned && b.data.pinned) return 1;
 
-		// 如果置顶状态相同，则按发布日期排序
-		const dateA = new Date(a.data.published);
-		const dateB = new Date(b.data.published);
-		return dateA > dateB ? -1 : 1;
+		// 如果置顶状态相同，则按发布日期排序；同一天发布的按文章编号倒序，与编号规则保持一致
+		const dateDiff =
+			new Date(b.data.published).getTime() -
+			new Date(a.data.published).getTime();
+		if (dateDiff !== 0) return dateDiff;
+		return b.data.postId - a.data.postId;
 	});
 	return sorted;
 }
@@ -27,10 +63,12 @@ export async function getSortedPosts() {
 
 	for (let i = 1; i < sorted.length; i++) {
 		sorted[i].data.nextSlug = sorted[i - 1].id;
+		sorted[i].data.nextPostId = sorted[i - 1].data.postId;
 		sorted[i].data.nextTitle = sorted[i - 1].data.title;
 	}
 	for (let i = 0; i < sorted.length - 1; i++) {
 		sorted[i].data.prevSlug = sorted[i + 1].id;
+		sorted[i].data.prevPostId = sorted[i + 1].data.postId;
 		sorted[i].data.prevTitle = sorted[i + 1].data.title;
 	}
 
@@ -160,9 +198,7 @@ export async function getRelatedPosts(
 	currentPost: CollectionEntry<"posts">,
 	maxCount = 5,
 ): Promise<PostForList[]> {
-	const allPosts = await getCollection<"posts">("posts", ({ data }) => {
-		return import.meta.env.PROD ? data.draft !== true : true;
-	});
+	const allPosts = await withPostIds(await getVisiblePosts());
 
 	// 排除自身和加密文章
 	const candidates = allPosts.filter(

@@ -4,7 +4,7 @@ import I18nKey from "@/i18n/i18nKey";
 import { i18n } from "@/i18n/translation";
 import type { PostForList } from "@/utils/content-utils";
 import { formatDateToYYYYMMDD } from "@/utils/date-utils";
-import { getPostUrlBySlug, url } from "@/utils/url-utils";
+import { getPostUrlById, url } from "@/utils/url-utils";
 
 interface Props {
 	relatedPosts: PostForList[];
@@ -34,7 +34,7 @@ const relatedIds = JSON.stringify(relatedPosts.map((p) => p.id));
       </div>
       {relatedPosts.map((post, idx) => (
         <a
-          href={getPostUrlBySlug(post.id)}
+          href={getPostUrlById(post.data.postId)}
           class:list={[
             "group flex items-center gap-3 px-3 py-3 -mx-1 rounded-lg",
             "transition-all hover:bg-black/5 dark:hover:bg-white/5 active:scale-[0.98]",
@@ -120,7 +120,7 @@ function renderRandomPosts() {
     var base = apiUrl.replace(/\/api\/allPostMeta\.json$/, '');
 
     picked.forEach(function(post, idx) {
-      var href = base + '/posts/' + post.id + '/';
+      var href = base + '/posts/id=' + post.postId + '/';
 
       var a = document.createElement('a');
       a.href = href;

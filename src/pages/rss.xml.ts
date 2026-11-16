@@ -6,7 +6,7 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getSortedPosts } from "@utils/content-utils";
 import { formatDateI18nWithTime } from "@utils/date-utils";
-import { url } from "@utils/url-utils";
+import { getPostUrlById } from "@utils/url-utils";
 import type { APIContext } from "astro";
 import { experimental_AstroContainer as AstroContainer } from "astro/container";
 import sanitizeHtml from "sanitize-html";
@@ -32,7 +32,7 @@ export async function GET(context: APIContext) {
 				title: post.data.title,
 				pubDate: post.data.published,
 				description: post.data.description || "",
-				link: url(`/posts/${post.id}/`),
+				link: getPostUrlById(post.data.postId),
 				content: i18n(I18nKey.passwordProtectedRss),
 			});
 			continue;
@@ -44,7 +44,7 @@ export async function GET(context: APIContext) {
 			title: post.data.title,
 			pubDate: post.data.published,
 			description: post.data.description || "",
-			link: url(`/posts/${post.id}/`),
+			link: getPostUrlById(post.data.postId),
 			content: sanitizeHtml(cleanedContent, {
 				allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
 			}),

@@ -20,10 +20,9 @@ function joinUrl(...parts: string[]): string {
 	return joined.replace(/\/+/g, "/");
 }
 
-export function getPostUrlBySlug(slug: string): string {
-	// 移除文件扩展名（如 .md, .mdx 等）
-	const slugWithoutExt = removeFileExtension(slug);
-	return url(`/posts/${slugWithoutExt}/`);
+// 文章地址：/posts/id=<编号>/，编号见 content-utils 中的 getPostIdMap
+export function getPostUrlById(postId: number): string {
+	return url(`/posts/id=${postId}/`);
 }
 
 export function getTagUrl(tag: string): string {
